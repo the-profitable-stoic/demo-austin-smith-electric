@@ -1,0 +1,612 @@
+{
+  "business": {
+    "name": "Austin Smith Electric",
+    "phone": "+13179700301",
+    "category": "electrical contractor",
+    "city": "Indianapolis",
+    "state": "IN"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-red-charge",
+      "categoryGroup": "roofing",
+      "name": "Red Charge",
+      "recipeFile": "roofing/red-charge.astro",
+      "colors": {
+        "primary": "#1F3A56",
+        "primaryDark": "#152B42",
+        "primaryLight": "#D0DCE8",
+        "secondary": "#2B4C6F",
+        "accent": "#DC143C",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1F3A56",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Indianapolis' Trusted Electricians",
+      "heroSubline": "Powering homes and businesses across Indianapolis. Reliable electrical solutions, guaranteed.",
+      "aboutTitle": "Decades of Indianapolis Electrical Expertise",
+      "aboutText": [
+        "Austin Smith Electric started with a simple mission: provide honest, reliable electrical services to our Indianapolis neighbors. We're not a franchise; we're a local team built on integrity and hard work.",
+        "We believe in doing the job right the first time. Our electricians are rigorously trained and equipped to handle any electrical challenge, from routine repairs in Broad Ripple bungalows to complex installations in new Fishers developments.",
+        "Indianapolis is our home, and we're committed to giving back. We actively support local initiatives and prioritize sustainable practices to ensure a brighter future for our community."
+      ],
+      "valueProps": [
+        {
+          "title": "Rapid Response",
+          "description": "We understand electrical issues are urgent. Expect prompt, reliable service when you need it most."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "No hidden fees, no surprises. We provide clear, upfront pricing before any work begins."
+        },
+        {
+          "title": "Expert Technicians",
+          "description": "Our licensed electricians are highly skilled and continuously trained on the latest technologies."
+        },
+        {
+          "title": "Local Commitment",
+          "description": "We're invested in the Indianapolis community and dedicated to providing exceptional service to our neighbors."
+        }
+      ],
+      "ctaHeadline": "Get Your Free Electrical Estimate Today!",
+      "ctaSubline": "Schedule your consultation with Austin Smith Electric and experience the difference."
+    },
+    "services": [
+      {
+        "slug": "residential-electrical-services",
+        "name": "Residential Electrical Services",
+        "shortDescription": "Safe and reliable electrical solutions for Indianapolis homes.",
+        "description": "Indianapolis homes, especially those in older neighborhoods like Irvington and Meridian-Kessler, often require specialized electrical attention. We provide complete residential electrical services, from troubleshooting flickering lights to full home rewiring. We address common issues caused by Indianapolis' freeze-thaw cycles, ensuring your home's electrical system is safe and up to code.\n\nOur residential services include electrical panel upgrades to handle modern appliance loads, outlet and switch replacements, lighting design and installation, ceiling fan installation, smoke detector and carbon monoxide detector installation, and whole-house surge protection. We also specialize in diagnosing and repairing electrical problems in older homes, ensuring their electrical systems meet modern safety standards.\n\nWhether you're dealing with a minor repair or a major renovation, Austin Smith Electric is the trusted choice for residential electrical services in Indianapolis.",
+        "process": [
+          "Step 1: Schedule a convenient appointment for an on-site assessment.",
+          "Step 2: Our licensed electrician will thoroughly inspect your electrical system and discuss your needs.",
+          "Step 3: We'll provide a detailed, transparent quote for the recommended services.",
+          "Step 4: Upon your approval, we'll complete the work efficiently and safely, ensuring your satisfaction."
+        ],
+        "benefits": [
+          "Improved safety and reliability of your home's electrical system",
+          "Increased energy efficiency and reduced utility bills",
+          "Enhanced home value and curb appeal",
+          "Peace of mind knowing your electrical system is up to code"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my electrical panel inspected?",
+            "answer": "We recommend having your electrical panel inspected every 3-5 years, especially in older homes. Regular inspections can identify potential problems before they become major issues."
+          },
+          {
+            "question": "What are the signs that I need to upgrade my electrical panel?",
+            "answer": "Common signs include flickering lights, frequently tripped breakers, and the inability to run multiple appliances simultaneously. Upgrading your panel can improve safety and prevent electrical overloads."
+          },
+          {
+            "question": "Do you offer emergency electrical services?",
+            "answer": "Yes, we provide 24/7 emergency electrical services in Indianapolis. Call us anytime for urgent electrical repairs or safety concerns."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-electrical-services",
+        "name": "Commercial Electrical Services",
+        "shortDescription": "Powering Indianapolis businesses with reliable electrical solutions.",
+        "description": "Austin Smith Electric understands the unique electrical needs of Indianapolis businesses. From small retail shops in Fountain Square to large office buildings downtown, we provide comprehensive commercial electrical services to keep your business running smoothly.\n\nOur commercial services include electrical system design and installation, lighting upgrades, energy-efficient solutions, data cabling, generator installation, and routine maintenance. We also offer emergency electrical services to minimize downtime and ensure business continuity.\n\nWe work closely with business owners and property managers to develop customized electrical solutions that meet their specific needs and budget. Our goal is to provide reliable, cost-effective electrical services that contribute to the success of your business.",
+        "process": [
+          "Step 1: Contact us to discuss your commercial electrical needs.",
+          "Step 2: We'll schedule a site visit to assess your current electrical system and project requirements.",
+          "Step 3: We'll develop a detailed proposal outlining the scope of work, timeline, and cost.",
+          "Step 4: Upon approval, our experienced electricians will complete the project efficiently and professionally."
+        ],
+        "benefits": [
+          "Reduced energy costs and improved operational efficiency",
+          "Enhanced safety and compliance with electrical codes",
+          "Minimized downtime and business disruptions",
+          "Increased property value and tenant satisfaction"
+        ],
+        "faq": [
+          {
+            "question": "Do you offer preventative maintenance plans for commercial electrical systems?",
+            "answer": "Yes, we offer customized preventative maintenance plans to keep your electrical system in optimal condition and prevent costly repairs. These plans include regular inspections, testing, and maintenance tasks."
+          },
+          {
+            "question": "Can you help with energy-efficient lighting upgrades?",
+            "answer": "Absolutely. We can help you upgrade to energy-efficient LED lighting to reduce your energy consumption and lower your utility bills. We'll handle the entire process, from selecting the right fixtures to installation and disposal of old lighting."
+          },
+          {
+            "question": "Are you licensed and insured to perform commercial electrical work in Indianapolis?",
+            "answer": "Yes, we are fully licensed and insured to perform commercial electrical work in Indianapolis and surrounding areas. We adhere to all local and national electrical codes."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-panel-upgrades",
+        "name": "Electrical Panel Upgrades",
+        "shortDescription": "Upgrade your electrical panel for safety and performance in Indianapolis.",
+        "description": "Many older Indianapolis homes, particularly those in Broad Ripple and Fountain Square, have outdated electrical panels that cannot handle the demands of modern appliances and electronics. An electrical panel upgrade is essential for safety and to prevent overloaded circuits.\n\nAustin Smith Electric specializes in electrical panel upgrades for Indianapolis homes. We'll assess your current electrical load and recommend the appropriate panel size to meet your needs. Our experienced electricians will safely remove your old panel and install a new, code-compliant panel, ensuring your home's electrical system is protected.\n\nDon't risk electrical fires or power outages. Upgrade your electrical panel with Austin Smith Electric and enjoy a safer, more reliable electrical system.",
+        "process": [
+          "Step 1: Schedule an electrical panel assessment with our team.",
+          "Step 2: We'll evaluate your current panel and electrical load requirements.",
+          "Step 3: We'll provide a detailed quote for the panel upgrade, including all necessary permits.",
+          "Step 4: Our licensed electricians will perform the upgrade safely and efficiently, minimizing disruption to your home."
+        ],
+        "benefits": [
+          "Improved safety and reduced risk of electrical fires",
+          "Increased capacity to handle modern appliance loads",
+          "Prevention of tripped breakers and power outages",
+          "Compliance with current electrical codes"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I need to upgrade my electrical panel?",
+            "answer": "Common signs include frequently tripped breakers, flickering lights, and the inability to run multiple appliances simultaneously. If your panel is old or undersized, it's time for an upgrade."
+          },
+          {
+            "question": "How long does an electrical panel upgrade take?",
+            "answer": "An electrical panel upgrade typically takes 4-8 hours, depending on the complexity of the job. We'll work efficiently to minimize any inconvenience to your home."
+          },
+          {
+            "question": "Do I need a permit for an electrical panel upgrade?",
+            "answer": "Yes, a permit is required for electrical panel upgrades in Indianapolis. We'll handle all the necessary paperwork and ensure your upgrade is compliant with local regulations."
+          }
+        ]
+      },
+      {
+        "slug": "lighting-installation",
+        "name": "Lighting Installation",
+        "shortDescription": "Enhance your Indianapolis home or business with professional lighting installation.",
+        "description": "Proper lighting can transform a space, enhancing its functionality, ambiance, and energy efficiency. Austin Smith Electric provides expert lighting installation services for homes and businesses throughout Indianapolis.\n\nWe offer a wide range of lighting solutions, including recessed lighting, pendant lighting, track lighting, outdoor lighting, and smart lighting systems. Our experienced electricians will work with you to design and install a lighting system that meets your specific needs and aesthetic preferences.\n\nWhether you're looking to upgrade your kitchen lighting, add landscape lighting to your backyard, or install energy-efficient lighting in your office, Austin Smith Electric is the trusted choice for lighting installation in Indianapolis.",
+        "process": [
+          "Step 1: Schedule a consultation to discuss your lighting needs and preferences.",
+          "Step 2: We'll develop a customized lighting design plan that meets your budget and aesthetic goals.",
+          "Step 3: Our licensed electricians will install your new lighting system efficiently and safely.",
+          "Step 4: We'll ensure your complete satisfaction with the final result."
+        ],
+        "benefits": [
+          "Improved aesthetics and ambiance",
+          "Increased energy efficiency and reduced utility bills",
+          "Enhanced safety and security",
+          "Increased property value"
+        ],
+        "faq": [
+          {
+            "question": "What are the benefits of LED lighting?",
+            "answer": "LED lighting is highly energy-efficient, long-lasting, and provides excellent light quality. It can significantly reduce your energy consumption and lower your utility bills."
+          },
+          {
+            "question": "Can you install smart lighting systems?",
+            "answer": "Yes, we can install and configure smart lighting systems that allow you to control your lights remotely and automate lighting schedules."
+          },
+          {
+            "question": "Do you offer outdoor lighting installation?",
+            "answer": "Yes, we offer a full range of outdoor lighting services, including landscape lighting, security lighting, and patio lighting."
+          }
+        ]
+      },
+      {
+        "slug": "outlet-and-switch-installation",
+        "name": "Outlet and Switch Installation",
+        "shortDescription": "Reliable outlet and switch installation services in Indianapolis.",
+        "description": "Faulty or outdated outlets and switches can be a safety hazard and inconvenience. Austin Smith Electric provides professional outlet and switch installation services for homes and businesses in Indianapolis. We handle everything from replacing damaged outlets to installing new outlets in convenient locations.\n\nWe also specialize in installing GFCI outlets in bathrooms and kitchens to protect against electrical shock. Our experienced electricians will ensure your outlets and switches are installed safely and up to code.\n\nWhether you need to replace a single outlet or install new outlets throughout your home, Austin Smith Electric is the trusted choice for outlet and switch installation in Indianapolis.",
+        "process": [
+          "Step 1: Schedule an appointment for outlet and switch installation.",
+          "Step 2: Our licensed electrician will assess your needs and provide a detailed quote.",
+          "Step 3: We'll install or replace your outlets and switches safely and efficiently.",
+          "Step 4: We'll ensure all outlets and switches are functioning properly and up to code."
+        ],
+        "benefits": [
+          "Improved safety and reduced risk of electrical shock",
+          "Increased convenience and functionality",
+          "Compliance with current electrical codes",
+          "Enhanced home value"
+        ],
+        "faq": [
+          {
+            "question": "What is a GFCI outlet?",
+            "answer": "A GFCI (Ground Fault Circuit Interrupter) outlet is designed to protect against electrical shock by detecting ground faults. It's required in bathrooms, kitchens, and other areas where water is present."
+          },
+          {
+            "question": "How do I know if I need to replace an outlet?",
+            "answer": "Common signs include cracked or damaged outlets, loose plugs, and outlets that don't work. It's important to replace faulty outlets to prevent electrical hazards."
+          },
+          {
+            "question": "Can you install USB outlets?",
+            "answer": "Yes, we can install USB outlets to conveniently charge your electronic devices."
+          }
+        ]
+      },
+      {
+        "slug": "generator-installation",
+        "name": "Generator Installation",
+        "shortDescription": "Protect your Indianapolis home or business with generator installation.",
+        "description": "Indianapolis' severe weather, including thunderstorms and ice storms, can cause power outages. A backup generator can provide peace of mind and ensure your home or business remains powered during emergencies. Austin Smith Electric offers professional generator installation services in Indianapolis.\n\nWe can help you choose the right generator for your needs and install it safely and efficiently. Our experienced electricians will handle all aspects of the installation, including electrical connections, gas line installation, and testing. We install both whole-house generators and portable generators to fit your budget and power requirements.\n\nDon't be left in the dark during the next power outage. Contact Austin Smith Electric for generator installation in Indianapolis.",
+        "process": [
+          "Step 1: Schedule a consultation to discuss your generator needs.",
+          "Step 2: We'll assess your power requirements and recommend the appropriate generator size.",
+          "Step 3: We'll provide a detailed quote for the generator and installation.",
+          "Step 4: Our licensed electricians will install the generator safely and efficiently, ensuring it's ready to provide backup power when you need it most."
+        ],
+        "benefits": [
+          "Protection against power outages",
+          "Peace of mind during severe weather",
+          "Continuous operation of essential appliances and equipment",
+          "Increased property value"
+        ],
+        "faq": [
+          {
+            "question": "What size generator do I need?",
+            "answer": "The size of generator you need depends on your power requirements. We'll assess your needs and recommend the appropriate generator size to power your essential appliances and equipment."
+          },
+          {
+            "question": "Do I need a permit for generator installation?",
+            "answer": "Yes, a permit is typically required for generator installation. We'll handle all the necessary paperwork and ensure your installation is compliant with local regulations."
+          },
+          {
+            "question": "Can you install a whole-house generator?",
+            "answer": "Yes, we can install whole-house generators that automatically provide backup power to your entire home."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-inspections",
+        "name": "Electrical Inspections",
+        "shortDescription": "Ensure the safety of your Indianapolis property with a comprehensive electrical inspection.",
+        "description": "Whether you're buying, selling, or simply maintaining your Indianapolis home or business, an electrical inspection can identify potential safety hazards and ensure your electrical system is up to code. Austin Smith Electric provides thorough electrical inspections throughout Indianapolis.\n\nOur licensed electricians will inspect your electrical panel, wiring, outlets, switches, and other electrical components to identify any potential problems. We'll provide a detailed report outlining our findings and recommendations for repairs or upgrades.\n\nProtect your property and loved ones with an electrical inspection from Austin Smith Electric.",
+        "process": [
+          "Step 1: Schedule an electrical inspection with our team.",
+          "Step 2: Our licensed electrician will conduct a thorough inspection of your electrical system.",
+          "Step 3: We'll provide a detailed report outlining our findings and recommendations.",
+          "Step 4: We'll answer any questions you have and provide a quote for any necessary repairs or upgrades."
+        ],
+        "benefits": [
+          "Improved safety and reduced risk of electrical hazards",
+          "Identification of potential problems before they become major issues",
+          "Compliance with electrical codes",
+          "Peace of mind knowing your electrical system is safe and reliable"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have an electrical inspection?",
+            "answer": "We recommend having an electrical inspection every 3-5 years, or whenever you're buying or selling a property."
+          },
+          {
+            "question": "What does an electrical inspection include?",
+            "answer": "An electrical inspection includes a thorough examination of your electrical panel, wiring, outlets, switches, and other electrical components."
+          },
+          {
+            "question": "Will I receive a written report after the inspection?",
+            "answer": "Yes, you'll receive a detailed written report outlining our findings and recommendations."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Carmel",
+        "slug": "carmel-in",
+        "state": "IN",
+        "content": "Austin Smith Electric is proud to provide comprehensive electrical services to the residents and businesses of Carmel, Indiana. Known for its upscale developments from the 1980s through the 2000s, Carmel presents unique electrical needs, from updating older homes to ensuring the efficiency of modern smart home systems. Our team is equipped to handle any electrical project, large or small, with a focus on safety, quality, and customer satisfaction.\n\nWe understand the specific electrical challenges that Carmel homeowners face, including dealing with the cold winters and potential snow and ice damage. Our services include surge protection, generator installation, and wiring upgrades to ensure your home is safe and comfortable year-round. Trust Austin Smith Electric for reliable and professional electrical solutions in Carmel.",
+        "localContext": "Carmel is known for its upscale housing developments and thriving arts and cultural scene, creating a demand for high-quality electrical services.",
+        "nearbyAreas": [
+          "Westfield",
+          "Zionsville",
+          "Indianapolis"
+        ]
+      },
+      {
+        "city": "Fishers",
+        "slug": "fishers-in",
+        "state": "IN",
+        "content": "Austin Smith Electric is dedicated to serving the rapidly growing community of Fishers, Indiana. With its abundance of newer, planned communities built from the 1990s to the 2020s, Fishers requires modern electrical solutions to support its residents' lifestyles. We offer a wide range of services, from new construction wiring to smart home installations, ensuring that your home is equipped with the latest technology and energy-efficient solutions.\n\nWe are familiar with the unique electrical needs of Fishers homeowners, including the importance of reliable power during the cold winter months. Our services include backup generator installation, electrical panel upgrades, and surge protection to safeguard your home against power outages and electrical surges. Choose Austin Smith Electric for all your electrical needs in Fishers.",
+        "localContext": "Fishers is a dynamic city known for its planned communities and family-friendly atmosphere, creating a demand for modern and reliable electrical services.",
+        "nearbyAreas": [
+          "Noblesville",
+          "McCordsville",
+          "Indianapolis"
+        ]
+      },
+      {
+        "city": "Noblesville",
+        "slug": "noblesville-in",
+        "state": "IN",
+        "content": "Austin Smith Electric is proud to serve the historic city of Noblesville, Indiana. From the charming homes surrounding Courthouse Square to the newer developments on the outskirts of town, Noblesville presents a diverse range of electrical needs. We offer a comprehensive suite of services, from knob and tube wiring replacement to modern lighting installations, ensuring that your home is safe, efficient, and up to code.\n\nWe understand the specific challenges of working with older homes in Noblesville, including outdated wiring and potential safety hazards. Our team is experienced in identifying and addressing these issues, providing comprehensive electrical inspections and repairs. With cold winters and historic homes, trust Austin Smith Electric to keep your electrical systems safe and efficient. ",
+        "localContext": "Noblesville's historic Courthouse Square and mix of older and newer homes create a diverse demand for electrical services.",
+        "nearbyAreas": [
+          "Fishers",
+          "Cicero",
+          "Carmel"
+        ]
+      },
+      {
+        "city": "Zionsville",
+        "slug": "zionsville-in",
+        "state": "IN",
+        "content": "Austin Smith Electric provides expert electrical services to the residents and businesses of Zionsville, Indiana. Known for its charming village atmosphere and beautiful homes, Zionsville demands a high standard of quality and professionalism. Our team is committed to delivering exceptional service, whether you need a simple repair or a complete home rewiring.\n\nWe understand the importance of maintaining the aesthetic appeal of Zionsville homes while ensuring their electrical safety and efficiency. Our services include discreet wiring installations, landscape lighting design, and energy-efficient upgrades. We are committed to providing reliable and professional electrical solutions that meet the unique needs of Zionsville residents.",
+        "localContext": "Zionsville's charming village atmosphere and upscale homes create a demand for discreet and high-quality electrical services.",
+        "nearbyAreas": [
+          "Whitestown",
+          "Carmel",
+          "Brownsburg"
+        ]
+      },
+      {
+        "city": "Westfield",
+        "slug": "westfield-in",
+        "state": "IN",
+        "content": "Austin Smith Electric is dedicated to serving the growing community of Westfield, Indiana. With its expanding residential areas and thriving business sector, Westfield requires a reliable and experienced electrical contractor. We offer a full range of services, from new construction wiring to commercial electrical maintenance, ensuring that your home or business is powered safely and efficiently.\n\nWe understand the importance of staying up-to-date with the latest electrical codes and technologies in Westfield. Our team is continuously trained and certified to provide the best possible service. From smart home installations to energy-efficient lighting upgrades, Austin Smith Electric is your trusted partner for all your electrical needs in Westfield.",
+        "localContext": "Westfield's rapid growth and blend of residential and commercial properties create a diverse demand for electrical services.",
+        "nearbyAreas": [
+          "Carmel",
+          "Sheridan",
+          "Zionsville"
+        ]
+      },
+      {
+        "city": "Brownsburg",
+        "slug": "brownsburg-in",
+        "state": "IN",
+        "content": "Austin Smith Electric is proud to offer our electrical expertise to the residents and businesses of Brownsburg, Indiana. As a thriving community with a mix of established neighborhoods and new developments, Brownsburg requires a versatile and dependable electrical contractor. We provide a wide range of services, from routine maintenance to complex installations, ensuring the safety and efficiency of your electrical systems.\n\nWe understand the importance of reliable electrical service in Brownsburg, especially during inclement weather. Our services include surge protection, generator installation, and electrical panel upgrades to protect your home or business from power outages and electrical surges. Trust Austin Smith Electric for all your electrical needs in Brownsburg.",
+        "localContext": "Brownsburg's mix of established neighborhoods and new developments creates a diverse demand for electrical services.",
+        "nearbyAreas": [
+          "Avon",
+          "Plainfield",
+          "Zionsville"
+        ]
+      },
+      {
+        "city": "Avon",
+        "slug": "avon-in",
+        "state": "IN",
+        "content": "Austin Smith Electric is committed to providing top-notch electrical services to the residents and businesses of Avon, Indiana. Known for its family-friendly atmosphere and growing commercial sector, Avon requires a reliable and experienced electrical contractor. We offer a comprehensive range of services, from residential wiring to commercial lighting installations, ensuring that your electrical systems are safe, efficient, and up to code.\n\nWe understand the unique electrical needs of Avon homeowners and business owners. Our services include energy-efficient upgrades, surge protection, and backup generator installation to protect your property from power outages and electrical damage. Choose Austin Smith Electric for all your electrical needs in Avon.",
+        "localContext": "Avon's family-friendly atmosphere and growing commercial sector create a diverse demand for electrical services.",
+        "nearbyAreas": [
+          "Brownsburg",
+          "Plainfield",
+          "Indianapolis"
+        ]
+      },
+      {
+        "city": "Plainfield",
+        "slug": "plainfield-in",
+        "state": "IN",
+        "content": "Austin Smith Electric is dedicated to serving the community of Plainfield, Indiana, with reliable and professional electrical services. As a growing town with a mix of residential and commercial properties, Plainfield requires a versatile and experienced electrical contractor. We offer a full range of services, from new construction wiring to electrical repairs and maintenance, ensuring the safety and efficiency of your electrical systems.\n\nWe understand the importance of providing prompt and efficient electrical service in Plainfield. Our team is committed to responding quickly to your needs and providing solutions that meet your budget and timeline. From routine maintenance to emergency repairs, Austin Smith Electric is your trusted partner for all your electrical needs in Plainfield.",
+        "localContext": "Plainfield's mix of residential and commercial properties creates a need for versatile electrical services.",
+        "nearbyAreas": [
+          "Mooresville",
+          "Avon",
+          "Indianapolis"
+        ]
+      },
+      {
+        "city": "Greenwood",
+        "slug": "greenwood-in",
+        "state": "IN",
+        "content": "Austin Smith Electric is proud to offer electrical services to the residents and businesses of Greenwood, Indiana. As a bustling city with a mix of residential neighborhoods and commercial developments, Greenwood requires a dependable and experienced electrical contractor. We offer a wide range of services, from residential wiring to commercial lighting installations, ensuring that your electrical systems are safe, efficient, and up to code.\n\nWe understand the electrical needs of Greenwood homeowners and business owners. Our services include energy-efficient upgrades, surge protection, and backup generator installation to protect your property from power outages and electrical damage. Choose Austin Smith Electric for all your electrical needs in Greenwood.",
+        "localContext": "Greenwood's diverse mix of residential and commercial properties creates a high demand for comprehensive electrical services.",
+        "nearbyAreas": [
+          "Indianapolis",
+          "Whiteland",
+          "Bargersville"
+        ]
+      },
+      {
+        "city": "Lawrence",
+        "slug": "lawrence-in",
+        "state": "IN",
+        "content": "Austin Smith Electric is committed to providing exceptional electrical services to the residents and businesses of Lawrence, Indiana. As a diverse community with a mix of older homes and newer developments, Lawrence requires a versatile and experienced electrical contractor. We offer a comprehensive range of services, from knob and tube wiring replacement to modern lighting installations, ensuring that your home is safe, efficient, and up to code.\n\nWe understand the unique electrical challenges of Lawrence homes, including dealing with outdated wiring and potential safety hazards. Our team is experienced in identifying and addressing these issues, providing comprehensive electrical inspections and repairs. Trust Austin Smith Electric to keep your electrical systems safe and efficient.",
+        "localContext": "Lawrence is a diverse community with a mix of older homes and newer developments, creating a need for versatile electrical services.",
+        "nearbyAreas": [
+          "Indianapolis",
+          "McCordsville",
+          "Fishers"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Electrical Panel Upgrade",
+        "text": "Austin Smith Electric did an amazing job upgrading our electrical panel. We live in an older home in Meridian-Kessler, and our old panel was struggling to keep up with our modern appliances. The team was professional, efficient, and explained everything clearly. Highly recommend!",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Lighting Installation",
+        "text": "We hired Austin Smith Electric to install recessed lighting in our kitchen, and we're very happy with the results. The electrician was on time, courteous, and did a great job. The lighting has completely transformed the space. One star off because the initial quote was slightly lower than the final price, but they did explain the additional costs beforehand.",
+        "date": "2024-12-01"
+      },
+      {
+        "name": "Jessica R.",
+        "rating": 5,
+        "service": "Commercial Electrical Services",
+        "text": "Austin Smith Electric has been our go-to electrician for our retail store in Fountain Square for years. They're always responsive, reliable, and their work is top-notch. We recently had them install new data cabling and upgrade our lighting, and we couldn't be happier.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Generator Installation",
+        "text": "After experiencing several power outages last winter, we decided to invest in a backup generator. Austin Smith Electric made the entire process seamless. They helped us choose the right generator for our needs and installed it quickly and professionally. We now have peace of mind knowing we'll be prepared for the next storm.",
+        "date": "2025-02-20"
+      },
+      {
+        "name": "Emily S.",
+        "rating": 4,
+        "service": "Outlet and Switch Installation",
+        "text": "I needed several outlets replaced in my home, and Austin Smith Electric provided prompt and efficient service. The electrician was friendly and knowledgeable. The only minor issue was a small delay in scheduling the appointment, but overall, I was very satisfied with the work.",
+        "date": "2025-03-05"
+      },
+      {
+        "name": "Robert P.",
+        "rating": 5,
+        "service": "Electrical Inspection",
+        "text": "We were buying a new home and wanted to make sure the electrical system was sound. Austin Smith Electric performed a thorough inspection and identified a few minor issues that needed to be addressed. Their report gave us the confidence to move forward with the purchase. Very professional and detailed inspection.",
+        "date": "2025-03-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Austin Smith Electric | Indianapolis Electrician",
+        "description": "Reliable electrical services in Indianapolis, IN. Expert electricians for residential & commercial needs. Call +13179700301."
+      },
+      "about": {
+        "title": "About Austin Smith Electric | Indianapolis, IN",
+        "description": "Learn about Austin Smith Electric, your trusted local electrician in Indianapolis. Decades of experience, commitment to quality & community."
+      },
+      "services": {
+        "title": "Electrical Services | Indianapolis, IN",
+        "description": "Comprehensive electrical services in Indianapolis: panel upgrades, lighting, outlets, generator install. Licensed & insured. Call +13179700301"
+      },
+      "contact": {
+        "title": "Contact Austin Smith Electric | Indianapolis, IN",
+        "description": "Contact Austin Smith Electric for reliable electrical services in Indianapolis. Get a free estimate today! Call +13179700301."
+      },
+      "reviews": {
+        "title": "Austin Smith Electric Reviews | Indianapolis, IN",
+        "description": "Read reviews for Austin Smith Electric in Indianapolis. See what our satisfied customers are saying about our electrical services."
+      },
+      "service-areas": {
+        "title": "Austin Smith Electric Service Areas",
+        "description": "Austin Smith Electric provides electrical services in Indianapolis, Carmel, Fishers, Noblesville, and surrounding areas."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "residential-electrical-services": "/images/service-residential-electrical-services.webp",
+      "commercial-electrical-services": "/images/service-commercial-electrical-services.webp",
+      "electrical-panel-upgrades": "/images/service-electrical-panel-upgrades.webp",
+      "lighting-installation": "/images/service-lighting-installation.webp",
+      "outlet-and-switch-installation": "/images/service-outlet-and-switch-installation.webp",
+      "generator-installation": "/images/service-generator-installation.webp",
+      "electrical-inspections": "/images/service-electrical-inspections.webp"
+    },
+    "servicesResponsive": {
+      "residential-electrical-services": {
+        "src": "/images/service-residential-electrical-services.webp",
+        "srcset": "/images/service-residential-electrical-services-400w.webp 400w, /images/service-residential-electrical-services-800w.webp 800w, /images/service-residential-electrical-services-1200w.webp 1200w, /images/service-residential-electrical-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-electrical-services": {
+        "src": "/images/service-commercial-electrical-services.webp",
+        "srcset": "/images/service-commercial-electrical-services-400w.webp 400w, /images/service-commercial-electrical-services-800w.webp 800w, /images/service-commercial-electrical-services-1200w.webp 1200w, /images/service-commercial-electrical-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-panel-upgrades": {
+        "src": "/images/service-electrical-panel-upgrades.webp",
+        "srcset": "/images/service-electrical-panel-upgrades-400w.webp 400w, /images/service-electrical-panel-upgrades-800w.webp 800w, /images/service-electrical-panel-upgrades-1200w.webp 1200w, /images/service-electrical-panel-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "lighting-installation": {
+        "src": "/images/service-lighting-installation.webp",
+        "srcset": "/images/service-lighting-installation-400w.webp 400w, /images/service-lighting-installation-800w.webp 800w, /images/service-lighting-installation-1200w.webp 1200w, /images/service-lighting-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "outlet-and-switch-installation": {
+        "src": "/images/service-outlet-and-switch-installation.webp",
+        "srcset": "/images/service-outlet-and-switch-installation-400w.webp 400w, /images/service-outlet-and-switch-installation-800w.webp 800w, /images/service-outlet-and-switch-installation-1200w.webp 1200w, /images/service-outlet-and-switch-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "generator-installation": {
+        "src": "/images/service-generator-installation.webp",
+        "srcset": "/images/service-generator-installation-400w.webp 400w, /images/service-generator-installation-800w.webp 800w, /images/service-generator-installation-1200w.webp 1200w, /images/service-generator-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-inspections": {
+        "src": "/images/service-electrical-inspections.webp",
+        "srcset": "/images/service-electrical-inspections-400w.webp 400w, /images/service-electrical-inspections-800w.webp 800w, /images/service-electrical-inspections-1200w.webp 1200w, /images/service-electrical-inspections.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
